@@ -13,3 +13,7 @@ header {
 }
 
 no-repeat center fixed;     
+
+.home{
+    float: right;
+}
