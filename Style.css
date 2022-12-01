@@ -3,6 +3,13 @@
     padding: 0;
 }
 header {
-    background-image: url("./images_projet_web/sujet3_template_image0.jpg");
-    width:100%;
+    background-image: url("./images_projet_web/sujet3_template_image0.jpg");     
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width:auto;
+    height: 720px;px;
+    
 }
+
+no-repeat center fixed;     
