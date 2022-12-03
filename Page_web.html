@@ -8,20 +8,23 @@
     </head>
     <body>
         <header>
-              <section>
-                <p class="right">HOME</p>
-                <br>
-                <div class="cadre right">
+                <div class="page_elements right">
+                  <p><a href="./Page_web.html">HOME</a></p>
+                  <p><a href="#Places">PLACES</a></p>
+                  <p><a href="#shop">SHOP</a></p>
+                  <p><a href="#team">TEAM</a></p>        
+                </div>
+                <div class="cadre right ">
                     <h1>I declare this world is so beautiful that i can hardly believe it exists</h1>
-                    <p class="right"><a>read More</a></p>
+                    <p class="right"><a>READ MORE</a></p>
                 </div>
                 
-              </section>
         </header>
         <main> 
-            <section class="Places">
-                <h1>Best places to hike and trek in the world</h1>
-                <p>If you're an adverturer who loves being out in nature, a hiking trekking tour should be next on your list. you can expect great wildlife photography opportunities and the chance to travel with a group of like-minded individuals who love the great outdoors</p>
+            <section id="Places" class="Places">
+                <h1 class="sectionTitle">Best places to hike and trek in the world</h1>
+                <p class="sectiondescr">If you're an adverturer who loves being out in nature, a hiking trekking tour should be next on your list. you can expect great wildlife photography opportunities and the chance to travel with a group of like-minded individuals who love the great outdoors</p>
+                <div class="rectangle"></div>
                 <div class="gallery"> 
                     <div class="img-holder">
                         <img src="./images_projet_web/sujet3_template_image1.jpeg">
@@ -35,31 +38,54 @@
                         <img src="./images_projet_web/sujet3_template_image3.jpeg">
                         <p>View More</p>
                     </div>
-                </div>
-                   
+                </div>                   
             </section>
+
             <section class="photo">
                 <img src="./images_projet_web/sujet3_template_image4.jpeg">
                 <img src="./images_projet_web/sujet3_template_image5.jpeg">
             </section>
-            <section class="shop gallery">
-                <div class="img-holder"> 
-                    <img src="./images_projet_web/sujet3_template_image0.jpg"> 
-                    <p>MOUNTAINS TRAVEL</p>
+
+            <section id="shop" class="shop">
+                <div class="Carte"> 
+                    <img src="./images_projet_web/sujet3_template_image0.jpg" class="produit"> 
+                    <div class="detail">
+                        <strong>MOUNTAINS TRAVEL</strong>
+                        <p>Description ici il faut rajouté un text</p>
+                        <strong>€ 600</strong>
+                        <a href="">
+                            <button>Book now</button>
+                        </a>                      
+                    </div>
                 </div>
-                <div class="img-holder"> 
-                    <img src="./images_projet_web/sujet3_template_image6.jpg"> 
-                    <p>SURF TRAVEL</p>
+                <div class="Carte"> 
+                    <img src="./images_projet_web/sujet3_template_image6.jpg" class="produit">                     
+                    <div class="detail">
+                        <strong>SURF TRAVEL</strong>
+                        <p>Description ici il faut rajouté un text</p>
+                        <strong>€ 800</strong>
+                        <a href="">
+                            <button>Book now</button>
+                        </a>                      
+                    </div>
                 </div>
-                <div class="img-holder"> 
-                    <img src="./images_projet_web/sujet3_template_image7.jpg"> 
-                    <p>OCEAN TRAVEL</p>
+                <div class="Carte"> 
+                    <img src="./images_projet_web/sujet3_template_image7.jpg" class="produit">                    
+                    <div class="detail">
+                        <strong>OCEAN TRAVEL</strong>
+                        <p>Description ici il faut rajouté un text</p>
+                        <strong>€ 700</strong>
+                        <a href="">
+                            <button>Book now</button>
+                        </a>                      
+                    </div>
                 </div>                
             </section>
 
-            <section class="team">
-                <h1>Our Perfect Team</h1>
-                <p>Sample text</p>
+            <section id="team" class="team">
+                <h1 class="sectionTitle">Our Perfect Team</h1>
+                <p class="sectiondescr">Sample text</p>
+                <div class="rectangle2"></div>
                 <div class="gallery">
                     <img src="./images_projet_web/sujet3_template_image8.jpeg">
                     <img src="./images_projet_web/sujet3_template_image9.jpeg">
@@ -69,20 +95,23 @@
                     <img src="./images_projet_web/sujet3_template_image13.jpeg">                
                 </div>
             </section>
+
             <section class="photo">
                     <img src="./images_projet_web/sujet3_template_image14.jpeg">
                     <img src="./images_projet_web/sujet3_template_image15.jpeg">
             </section>
+
             <section class="subscribe">
                 <h1>Subscribe to our Newsletter</h1>
-                <p>un text</p>
-                <input type="text" class="Name" value="Enter your Name">
-                <input type="text" class="email" value="Enter your email">
+                <p>Sign up. Be inspired. Travel.</p>
+                <input type="text" class="Name" value=" Enter your Name">
+                <input type="text" class="email" value=" Enter your email">
                 <input type="button" value="SUBMIT">
             </section>
+
         </main>
     </body>
-    <footer>
-
+    <footer>      
+            <p class="copyright">Company RedBottle © 2022</p>
     </footer>
 </html>
