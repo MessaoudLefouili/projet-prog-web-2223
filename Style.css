@@ -8,12 +8,33 @@
 body {
     width: 80%;
     margin: 0 auto;
+    min-width: 870px;
 }
 header{
     background-image: url("./images_projet_web/sujet3_template_image0.jpg");    
     height: 500px;
     background-size: cover;
     position: relative;
+    animation: change 30s infinite ease-in;
+    min-width: 870px;
+}
+@keyframes change{
+    0%{
+        background-image: url("./images_projet_web/sujet3_template_image0.jpg");
+    }
+    25%{
+        background-image: url("./images_projet_web/sujet3_template_image1.jpeg");
+    }
+    50%{
+        background-image: url("./images_projet_web/sujet3_template_image2.jpeg");
+    }
+    75%{
+        background-image: url("./images_projet_web/sujet3_template_image3.jpeg");
+    }
+    100%{
+        background-image: url("./images_projet_web/sujet3_template_image4.jpeg");
+    }
+    
 }
 .readmore{
     height: 36px;
@@ -175,6 +196,26 @@ section[id="shop"] button:hover{
     cursor: pointer;
 
 }
+
+/* partie shop*/
+/*game partie */
+.game{
+    width: 100; 
+    justify-content: center;
+    align-items: center;   
+}
+.game h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.game div{
+    width: 100px;
+    margin: auto;
+
+}
+
+
 
 /*payement window*/
 .payement{
