@@ -84,7 +84,7 @@
         <!-- Shop -->
             <section id="shop" class="shop">
                 <div class="Carte"> 
-                    <img src="./images_projet_web/sujet3_template_image0.jpg" class="produit"> 
+                    <img src="./images_projet_web/sujet3_template_image0.jpeg" class="produit"> 
                     <div class="detail">
                         <strong>MOUNTAINS TRAVEL</strong>
                         <p>Description ici il faut rajouté un text</p>
@@ -114,8 +114,34 @@
 
             <div class="game">
                     <h1>play a game and win a discount</h1>
-                    <div><button>Play the game</button> </div>                    
+                    <div><button id="bjeux">Play the game</button> </div>                    
             </div>
+
+            <div class="jeux" id="jeux">
+                <p>Trouvez le nombre caché entre 0 et 100<br> en 10 essais maximum</p>
+                <label for="prop">votre proposition : </label>
+                <input type="text" id="prop" name="proposition" value="" /><br />
+                <div id="message">   
+                </div>
+                <div id="partieEncours">
+                <button id="jouerBtn">Jouer</button> 
+                <button id="finPartieBtn">Abandonner</button>
+                </div>
+                <div id="partieTerminee" class="cache">
+                <button id="debutPartieBtn">Nouvelle Partie</button>
+                </div>
+            </div>
+            <script>
+                /*script pour afficher jeux*/
+                var a = document.getElementById("jeux");
+                // Get the button that opens the modal
+                var btnj = document.getElementById("bjeux");
+                // When the user clicks the button, open the modal 
+                btnj.onclick = function() {
+                    a.style.display = "block";                    
+                } 
+             </script>
+             <script src="./nombreCache.js"></script>
 
             <div id="payement" class="payement">
                 <div class="payement-content">
@@ -195,15 +221,15 @@
         <!-- Team -->
             <section id="team" class="team">
                 <h1 class="sectionTitle">Our Perfect Team</h1>
-                <p class="sectiondescr">Sample text</p>
+                <p class="sectiondescr">We are a team of travel enthusiasts. Join us on our journey through the most beautiful places in the country. </p>
                 <div class="rectangle2"></div>
                 <div class="gallery">
-                    <img src="./images_projet_web/sujet3_template_image8.jpeg">
-                    <img src="./images_projet_web/sujet3_template_image9.jpeg">
-                    <img src="./images_projet_web/sujet3_template_image10.jpeg">
-                    <img src="./images_projet_web/sujet3_template_image11.jpeg">
-                    <img src="./images_projet_web/sujet3_template_image12.jpeg">
-                    <img src="./images_projet_web/sujet3_template_image13.jpeg">                
+                    <img src="./images_projet_web/sujet3_template_image8.jpg">
+                    <img src="./images_projet_web/sujet3_template_image9.jpg">
+                    <img src="./images_projet_web/sujet3_template_image10.jpg">
+                    <img src="./images_projet_web/sujet3_template_image11.jpg">
+                    <img src="./images_projet_web/sujet3_template_image12.jpg">
+                    <img src="./images_projet_web/sujet3_template_image13.jpg">                
                 </div>
             </section>
         

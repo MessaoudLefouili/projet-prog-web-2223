@@ -11,16 +11,16 @@ body {
     min-width: 870px;
 }
 header{
-    background-image: url("./images_projet_web/sujet3_template_image0.jpg");    
+    background-image: url("./images_projet_web/sujet3_template_image0.jpeg");    
     height: 500px;
     background-size: cover;
     position: relative;
-    animation: change 30s infinite ease-in;
+    animation: change 10s infinite ease-in;
     min-width: 870px;
 }
 @keyframes change{
     0%{
-        background-image: url("./images_projet_web/sujet3_template_image0.jpg");
+        background-image: url("./images_projet_web/sujet3_template_image0.jpeg");
     }
     25%{
         background-image: url("./images_projet_web/sujet3_template_image1.jpeg");
@@ -212,10 +212,32 @@ section[id="shop"] button:hover{
 .game div{
     width: 100px;
     margin: auto;
-
+}
+/*game*/
+.jeux{
+    display: none;
+    border: 2px solid  rgba(240,196,13,255);
+    padding: 10px;
 }
 
-
+.cache {
+    display:none;
+}
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#message {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+.gagne {
+    color: green;
+}
+.perdu {
+    color: red;
+}
 
 /*payement window*/
 .payement{
