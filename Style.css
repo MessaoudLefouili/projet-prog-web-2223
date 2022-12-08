@@ -8,6 +8,7 @@
 body {
     width: 80%;
     margin: 0 auto;
+    min-width: 870px;
 }
 header{
     background-image: url("./images_projet_web/sujet3_template_image0.jpg");    
@@ -15,6 +16,7 @@ header{
     background-size: cover;
     position: relative;
     animation: change 30s infinite ease-in;
+    min-width: 870px;
 }
 @keyframes change{
     0%{
@@ -174,6 +176,25 @@ section[id="shop"] button:hover{
     cursor: pointer;
 
 }
+/* partie shop*/
+/*game partie */
+.game{
+    width: 100; 
+    justify-content: center;
+    align-items: center;   
+}
+.game h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.game div{
+    width: 100px;
+    margin: auto;
+
+}
+
+
 /*payement window*/
 .payement{
     display: none;
