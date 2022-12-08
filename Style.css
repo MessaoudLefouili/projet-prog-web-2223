@@ -15,6 +15,25 @@ header{
     background-size: cover;
     position: relative;
 }
+.readmore{
+    height: 36px;
+    width: 50%;
+    background-color: transparent;
+    color:rgba(240,196,13,255);
+    float: right;
+    margin-right: 20px;
+    border: 0;
+    text-size-adjust: 80%;
+  
+
+}
+.readmore:hover{
+        height: 30px;
+        width: 100px;
+        color: white;
+        background-color: black;
+
+}
 
 .page_elements{
     display: flex;
@@ -44,6 +63,7 @@ header{
     float: right;
     margin-right: 20px;
 }
+
 
 /*Places*/
 .Places{
@@ -155,6 +175,7 @@ section[id="shop"] button:hover{
     cursor: pointer;
 
 }
+
 /*payement window*/
 .payement{
     display: none;
